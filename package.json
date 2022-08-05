@@ -1,0 +1,25 @@
+{
+  "name": "@irony0901/chain_repository_example",
+  "version": "0.3.7",
+  "description": "typeorm chain_repository example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irony1090/typeorm-chain-repository"
+  },
+  "author": {
+    "name": "irony19",
+    "email": "strike910901@gmail.com",
+    "url": "https://github.com/irony1090"
+  },
+  "scripts": {
+    "build": "tsc --build ./tsconfig.json",
+    "start": "node ./dist/index.js",
+    "bd2st": "yarn build & yarn start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "typeorm": "^0.3.7"
+  },
+  "devDependencies": {}
+}
