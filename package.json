@@ -1,6 +1,6 @@
 {
   "name": "@irony0901/chain_repository_example",
-  "version": "0.3.7",
+  "version": "0.3.7-1",
   "description": "typeorm chain_repository example",
   "repository": {
     "type": "git",

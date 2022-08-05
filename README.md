@@ -93,7 +93,7 @@ console.log('[after setProperty]', article);
 | bbs_id    | bigint    | Primary key   |
 | user_id   | bigint    | Foreign key   |
 | writer    | varchar   |               |
-| reg_date  | datetime  | default NOT() |
+| reg_date  | datetime  | default NOW() |
 #### [table]-bbs data
 | bbs_id  | user_id | writer  | reg_date            |
 |-------- |---------|---------|---------------------|
