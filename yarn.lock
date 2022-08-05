@@ -2,6 +2,29 @@
 # yarn lockfile v1
 
 
+"@irony0901/format@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@irony0901/format/-/format-0.1.0.tgz#dc4eae838f1680fce247dbe22bd8db1cbd0b8f31"
+  integrity sha512-8Qr4oSOHOEzCZ3Isnan0Yj5zLmFu2ijz/GuQJmiHzyPpU7JqJ9C5dModQ1Qh7v5lynibI4qRtKMiHpR2wdMDVw==
+  dependencies:
+    uuid "^8.3.2"
+
+"@irony0901/toolbox@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@irony0901/toolbox/-/toolbox-0.8.3.tgz#4329df79857155ddab71880ca5fd4ef806c3138c"
+  integrity sha512-7ISL36yeiBSAqMM1rVkm7xIOugyFts37sXOPVla6KvuQgPYvAxLFroxWf9kt0n7bvAy64b43K6qJTxsk/8GSUQ==
+  dependencies:
+    "@irony0901/format" "^0.1.0"
+    tslib "^2.4.0"
+
+"@irony0901/typeorm-chain-repository@^0.3.7-1":
+  version "0.3.7-1"
+  resolved "https://registry.yarnpkg.com/@irony0901/typeorm-chain-repository/-/typeorm-chain-repository-0.3.7-1.tgz#3fb06268d50de3a70986ea44f4f2d883ffef7f7f"
+  integrity sha512-I+qlHd+WiF5AtKq5ocY/oDGitpPgRHC+ddIIep81yUtK+1D2YiXt1HvlW+vop7XMFKUHYVaEayv9hRQ0mYvriQ==
+  dependencies:
+    "@irony0901/format" "^0.1.0"
+    "@irony0901/toolbox" "0.8.3"
+
 "@sqltools/formatter@^1.2.2":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.3.tgz#1185726610acc37317ddab11c3c7f9066966bd20"
@@ -405,7 +428,7 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-tslib@^2.3.1:
+tslib@^2.3.1, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
