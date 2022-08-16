@@ -2,28 +2,26 @@
 # yarn lockfile v1
 
 
-"@irony0901/format@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@irony0901/format/-/format-0.1.0.tgz#dc4eae838f1680fce247dbe22bd8db1cbd0b8f31"
-  integrity sha512-8Qr4oSOHOEzCZ3Isnan0Yj5zLmFu2ijz/GuQJmiHzyPpU7JqJ9C5dModQ1Qh7v5lynibI4qRtKMiHpR2wdMDVw==
+"@irony0901/format@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@irony0901/format/-/format-0.1.2.tgz#45250fe5e84bf6e171d174f464ccc316459712f0"
+  integrity sha512-YBNc5JbiU0IYnpVK5BjjY4EXwdnH2R4/wo+ndGCGiM0B9bD6zyMBm+HWB5Hw4BYauCO9AKnKQu/SjNk8izxZLA==
   dependencies:
     uuid "^8.3.2"
 
-"@irony0901/toolbox@0.8.3":
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/@irony0901/toolbox/-/toolbox-0.8.3.tgz#4329df79857155ddab71880ca5fd4ef806c3138c"
-  integrity sha512-7ISL36yeiBSAqMM1rVkm7xIOugyFts37sXOPVla6KvuQgPYvAxLFroxWf9kt0n7bvAy64b43K6qJTxsk/8GSUQ==
+"@irony0901/toolbox@^0.8.6":
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/@irony0901/toolbox/-/toolbox-0.8.6.tgz#e2b75016712ee1b71d18c86c5413c1738fc7283d"
+  integrity sha512-amDXmZDgICJKWVCTg7S9md9rmpBLpHeqxY4UWydhVAu11MfRmDpYLLVKg2MfQwVfj6GGAwsFvTl/Ht2VGp2dog==
   dependencies:
-    "@irony0901/format" "^0.1.0"
-    tslib "^2.4.0"
+    "@irony0901/format" "^0.1.2"
 
-"@irony0901/typeorm-chain-repository@^0.3.7-1":
-  version "0.3.7-1"
-  resolved "https://registry.yarnpkg.com/@irony0901/typeorm-chain-repository/-/typeorm-chain-repository-0.3.7-1.tgz#3fb06268d50de3a70986ea44f4f2d883ffef7f7f"
-  integrity sha512-I+qlHd+WiF5AtKq5ocY/oDGitpPgRHC+ddIIep81yUtK+1D2YiXt1HvlW+vop7XMFKUHYVaEayv9hRQ0mYvriQ==
+"@irony0901/typeorm-chain-repository@^0.3.7-2":
+  version "0.3.7-2"
+  resolved "https://registry.yarnpkg.com/@irony0901/typeorm-chain-repository/-/typeorm-chain-repository-0.3.7-2.tgz#c4fdd081a9f69842f023bdcfd19aa8e03050f723"
+  integrity sha512-QGMJnIDxJFEd1EoHvAMoRjQueanXSp0D1YaMUGaeXCCiNwaY378ptLy30WoTSX/HmMifB776FsTyoD+kMM9Jvg==
   dependencies:
-    "@irony0901/format" "^0.1.0"
-    "@irony0901/toolbox" "0.8.3"
+    "@irony0901/toolbox" "^0.8.6"
 
 "@sqltools/formatter@^1.2.2":
   version "1.2.3"
@@ -428,7 +426,7 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-tslib@^2.3.1, tslib@^2.4.0:
+tslib@^2.3.1:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
